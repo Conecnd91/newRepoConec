@@ -1,0 +1,281 @@
+.navbar-brand{
+	font-size: 20px;
+	font-weight: bold;
+	color:gold
+}
+.active{
+	background:black;
+}
+.page-scroll, .drop{
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.page-scroll:hover{
+	color: white;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.navbar-brand:hover{
+	font-size: 20px;
+	font-weight: bold;
+	color: blue
+}
+.navbar-custom{position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	background: yellow;
+}
+h4{
+	color:white;
+	font-size:16px;
+	font-weight: bold;
+	margin-top: -10px;
+	font-family: sans-serif
+
+}
+label{
+	color:gold;
+	font-size: 13px;
+	font-family: sans serif;
+}
+.form-col{
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background: green;
+}
+.form-control{
+	font-size: 12px;
+	font-weight: bold;
+}
+.btn-link, .btn-submit{
+	color:black;
+	font-weight: bold;
+}
+.btn-submit:hover,  .btn-info:hover{
+	background: blue
+}
+p{
+	color:blue;
+	font-size: 14px;
+	font-weight:normal;
+	font-family: sans-serif;
+	
+}
+.btn-link:hover, .btn-info:hover{
+	text-decoration: none;
+	color:yellow;
+	font-weight: bold
+}
+
+.link{
+	font-size: 11px;
+	font-weight: bold
+}
+.panel-default{
+	border: 1px solid green;
+	
+}
+.product{
+	border-radius: 50px;
+	height: 20%;
+	border: 1px solid red;
+	background:red;
+}/*
+.thumbnails{
+	margin:20px 0px;
+}
+.thumbnail{
+	position:relative;
+	height: 200px;
+}
+.thumbnail h3{
+	font-size: 15px;
+	margin:0 0 10px;
+	line-height: 20px;
+}
+.thumbnail .price{
+	position:absolute;
+	top:0px;
+	right: 0px;
+	padding:5px
+}*/
+.contact{
+	border: 1px solid blue;
+	border-radius: 5px;
+	background: green;
+}
+.real{
+	font-size: 15px;
+	color: black;
+	font-family: sans-serif;
+}
+#details-info{
+	background-shadow:1px 2px 1px black
+}
+.details{
+	border-left: 1px solid silver;
+	border-right: 1px solid silver;
+	border-bottom: 1px solid silver;
+	border-bottom-left-radiusg:;
+	border-bottom-right-radius: 5px;
+	height:238px;
+}
+h2{
+	font-family: san-serif;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+h3, h4{
+	font-family: san-serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#about-us{
+	position:relative;
+	top:0px;
+	left:0px;
+	padding-top:30px;
+	background:orange;
+}
+#header{
+	position:relative;
+	top:-44px;
+	left:0px;
+	padding-top:40px;
+	background:orange;
+	height:590px;
+	border:0px solid black;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+#footer{
+	background: orange
+}
+h5{
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight:bold;
+	text-transform: capitalize;
+	
+}
+.hidden-sm-up{
+	display:none
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+ .navbar-custom{position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	
+}
+header{
+	position:relative;
+	top:-20px;
+	left:0px;
+	background:orange;
+	height:490px;
+	border:1px solid red;
+	padding:250px auto;
+}
+
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .form-class{
+	  margin-top:500px
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/*.navbar-custom{position:fixed;
+top:0px;
+width:100%}
+.nav a{color: white;
+font-weight:bold;
+font-size:16px
+    }
+/*.dropdown-menu li a{
+    font-size: 14px;
+    color:green;
+    background: black;
+    font-weight:bold;
+    text-decoration: none
+}*/
+
+/*.dropdown-menu li a:hover{
+    color:white;
+    background: white;
+    font-weight:bold;
+    text-decoration: none
+}
+
+.nav .header .section .footer{
+	display:block;
+}
+.header{
+	background:yellow;
+	/*padding:200px 0px;*/
+	/*margin:0px 0px;
+	height:500px;
+	
+}
+/*header .be{color:white;
+font-size:14px;
+font-weight: bold;
+text-decoration: none}*/
+/*header h1{
+    font-weight: bold;
+    font-size:25px;
+    text-shadow:3px 3px 2px black;
+}
+header p{
+    font-size:16px;
+    text-shadow:2px 2px 2px black
+}
+.main{height:100%}
+.col-x{border:0px solid red;
+height:100%;
+background:black;
+margin-right: 15px; 
+}
+.col{border:0px solid red;
+height:100%;
+background:black;
+margin-left: 15px  
+}
+.col-g{border:0px solid red;
+height:100%;
+background:black;
+}
+.img responsive{
+    margin:0 auto;}
+div h5{
+    font-size:20px;
+    font-weight:bold;
+    color:gold
+}
+p{
+    font-size: 14px;
+    color:white
+}
+footer{
+    width: 100%;
+    height:220px;
+    background: black;
+    color:white;
+    padding:40px 0}*/s
